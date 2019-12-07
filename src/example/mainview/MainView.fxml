@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.mainview.MainViewController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="602.0" text="This is a simple example on how to load multiple views into a vbox. Press to load" />
+            <Button mnemonicParsing="false" onAction="#onButtonPress" text="Load 1 item at the time" />
+            <VBox fx:id="itemVBox" prefHeight="356.0" prefWidth="600.0" spacing="10.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

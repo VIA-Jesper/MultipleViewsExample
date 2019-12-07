@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.items.ItemController" style="-fx-background-color: aliceblue;">
+   <children>
+      <VBox alignment="CENTER" prefHeight="90.0" prefWidth="462.0" spacing="10.0">
+         <children>
+            <Label fx:id="label1" text="Label" />
+            <Label fx:id="label2" text="Label" />
+            <Label fx:id="label3" text="Label" />
+         </children>
+      </VBox>
+   </children>
+</Pane>
