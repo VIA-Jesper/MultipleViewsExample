@@ -37,6 +37,7 @@ public class MainViewController {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("../items/Item.fxml"));
             Pane pane  =  loader.load();
             ItemController controller = loader.getController();
+
             itemCount++;
             controller.init("Item #" + itemCount, "Item #" + itemCount ,"Item #" + itemCount);
             content = pane;

@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
 public class ItemController {
+
     @FXML
     public Label label1;
     @FXML
@@ -17,4 +18,6 @@ public class ItemController {
         this.label2.setText(label2);
         this.label3.setText(label3);
     }
+
+
 }
